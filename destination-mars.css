@@ -118,6 +118,7 @@ main {
 .liner {
   padding-top: 2em;
   padding-bottom: 2em;
+  /* margin: auto; */
   width: 62%;
 }
 
@@ -206,9 +207,12 @@ main {
   .right {
     display: flex;
     flex-direction: column;
-    width: 70%;
+    justify-self: center;
+    width: 100%;
     height: auto;
+    text-align: center;
     margin: auto;
+    margin-top: -5em;
   }
 
   .main-links {
@@ -222,7 +226,7 @@ main {
 
   .right h4 {
     text-align: center;
-    font-size: 7em;
+    font-size: 8em;
   }
 
   .right p {
@@ -231,7 +235,7 @@ main {
   }
 
   .liner hr {
-    width: 70%;
+    width: 100%;
   }
 
   .section {

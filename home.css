@@ -51,6 +51,10 @@ nav img {
     display: none !important;
   }
 
+  h1 {
+    font-size: 20px;
+  }
+
   .mainMenu {
     height: 100%;
     position: fixed;

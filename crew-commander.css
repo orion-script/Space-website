@@ -240,6 +240,7 @@ main {
     background-position: center;
     background-size: cover;
     margin: 0;
+    height: 100vh;
     padding: 0;
     box-sizing: border-box;
   }
