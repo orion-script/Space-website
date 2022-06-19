@@ -327,6 +327,10 @@ main {
     transition: top 1s ease;
   }
 
+  .right h4 {
+    font-size: 90px;
+  }
+
   .hamburger {
     display: flex;
     width: 2em;
