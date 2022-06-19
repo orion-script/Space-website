@@ -1,0 +1,326 @@
+body {
+  background-image: url(/starter-code/assets/technology/background-technology-desktop.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  padding-top: 2.5em;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+nav img {
+  margin-left: 3em;
+  margin-top: 8px;
+}
+
+.line {
+  margin: auto;
+}
+
+.hamburger {
+  display: none;
+  margin-right: 25px;
+  margin-top: 7px;
+}
+
+hr {
+  width: 31%;
+  position: absolute;
+  margin-left: -8em;
+  margin-top: -0.4em;
+  border: 1px solid #8a97a8;
+}
+
+span {
+  color: #d7e5ef;
+}
+
+.nav-links {
+  background-color: #404f66;
+  width: 60%;
+  height: 4em;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #8a97a8;
+  padding: 1.5em;
+}
+
+.nav-links a:last-child {
+  border-bottom: 2px solid #fefefe;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  width: 50%;
+  margin-left: 10em;
+}
+
+.left span {
+  color: #8a97a8;
+}
+
+.left h3 {
+  color: #fefefe;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  margin-left: -4em;
+  margin-top: 6em;
+}
+
+.number {
+  display: flex;
+  flex-direction: column;
+  margin-top: -2em;
+}
+
+.number a {
+  text-align: center;
+  border-radius: 50%;
+  height: 2.5em;
+  width: 4em;
+  margin: 1em;
+  padding-top: 1.5em;
+  font-size: 1em;
+  background-color: none;
+  list-style-type: none;
+  cursor: pointer;
+  border: 2px solid #000;
+  text-decoration: none;
+  color: #fefefe;
+}
+
+.number a:first-of-type {
+  background-color: #fefefe;
+  color: #8a97a8;
+}
+
+.text {
+  margin-left: 1.5em;
+  color: #8a97a8;
+}
+
+.text h5 {
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-bottom: -1em;
+}
+
+.text h2 {
+  text-transform: uppercase;
+  font-size: 47px;
+  color: #fefefe;
+  margin-bottom: -0.1em;
+}
+
+.text p {
+  font-size: 17px;
+}
+
+.right {
+  width: 35%;
+}
+
+.right img {
+  margin-top: 3em;
+  width: 100%;
+  height: 26em;
+}
+
+@media screen and (max-width: 1020px) {
+  body {
+    background-image: url(/starter-code/assets/technology/background-technology-tablet.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: -2.5em;
+  }
+
+  .line hr {
+    display: none;
+  }
+
+  .nav-links {
+    background-color: #131522 !important;
+    width: 78% !important;
+  }
+
+  .nav-links span {
+    display: none;
+  }
+
+  .nav-links a {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+  }
+
+  .nav-links a:last-of-type {
+    border-bottom: 2px solid #fefefe;
+  }
+
+  .left h3 {
+    color: #fefefe;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 1em;
+  }
+
+  .text {
+    margin-top: -2em;
+  }
+}
+
+.side-bar {
+  margin-top: -4em;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #8a97a8;
+  text-align: center;
+  align-items: center;
+}
+
+.closeMenu {
+  display: flex;
+  justify-content: flex-end;
+  margin: 1em;
+}
+
+.mainMenu li {
+  list-style-type: none;
+}
+
+.mainMenu li a {
+  display: inline-block;
+  padding: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #bcc3c7;
+  font-size: 1.2rem;
+}
+
+.mainMenu li a:hover {
+  background: rgb(186, 148, 221);
+}
+
+.openMenu {
+  font-size: 2rem;
+  margin: 20px;
+  display: none;
+  cursor: pointer;
+}
+
+.hamburger {
+  display: none;
+  margin-right: 12px;
+  margin-top: 7px;
+}
+
+.hidden {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-image: url(/starter-code/assets/technology/background-technology-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .mainMenu {
+    height: 100%;
+    position: fixed;
+    top: -1em;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #304356;
+    transition: top 1s ease;
+  }
+
+  .hamburger {
+    display: flex;
+    width: 2em;
+    height: 2em;
+    margin-right: 5em;
+  }
+
+  main {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .left {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .section {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+  }
+
+  .number {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+  }
+}
