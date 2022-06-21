@@ -100,6 +100,11 @@ span {
   color: #d7e5ef;
 }
 
+.text p {
+  font-size: 20px;
+  color: #d7e5ef;
+}
+
 .nav-links {
   background-color: #404f66;
   width: 60%;
